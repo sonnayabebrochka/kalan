@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+html {
+	font-family: 'Handlee', cursive;
+	scroll-behavior: smooth;
+}
+.container{
+	width: 1000px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+h2 {
+	padding-top: 80px;
+	font-size: 48px;
+	line-height: 60px;
+	letter-spacing: 0.23em;
+	color: #000000;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+img:hover {
+	cursor: pointer;
+	transition: .5s;
+	transform: scale(1.05);
+}
+.first {
+	background-image: url("img/fon1.svg");
+	background-size: cover;
+	height: 630px;
+	margin-bottom: 0;
+}
+.nav {
+	height: 72px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	list-style: none;
+	padding-top: 61px;
+	margin-bottom: 0;
+	flex-wrap: wrap; 
+}	
+.nav a{
+	text-decoration: none;
+	margin-right: 32px;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
+	letter-spacing: 0.07em;
+	color: #FFFFFF;
+	transition: .3s;
+}
+.nav a:hover {
+	color:#E3B6AC;
+	cursor: pointer;
+}
+.nav img {
+	width: 72px;
+	height: 72px;
+	mix-blend-mode: color-dodge;
+}
+.info1 {
+	width: 675px;
+	max-width: 100%;
+	display: flex;
+    flex-direction: column;
+	height: 363px;
+	margin-top: 54px;
+}
+.info1 h1{
+	margin-top: 0;
+	font-size: 96px;
+	line-height: 128px;
+	letter-spacing: 0.07em;
+	color: #FFFFFF;
+	margin-bottom: 15px;
+}
+.info1 p {
+	font-size: 40px;
+	line-height: 50px;
+	letter-spacing: 0.07em;
+	margin-top: 0;
+	color: #FFFFFF;
+	margin-bottom: 60px;
+}
+a.btn{ 
+  background-color: rgba(255,255,255,0.3);
+  color: white;
+  transition: .3s;
+  text-decoration: none;
+  border-radius: 54px;
+  letter-spacing: 0.25em;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 120px;
+}
+a.btn:hover{
+  background-color: rgba(255,255,255,0.4);
+}
+.second {
+	background-image: url("img/fon2.svg");
+	background-size: cover;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.head {
+	margin-top: 20px;
+	margin-bottom: 0;
+
+	width: 980px;
+	
+	max-width: 100%;
+	height: 20px;
+}
+.about_project {
+	margin-top: 126px;
+	width: 980px;
+	
+	max-width: 100%;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-bottom: 100px;
+	flex-wrap: wrap;
+
+}
+.about_project img {
+	width: 510px;
+	
+	max-width: 100%;
+	height: 379px;
+}
+.text {
+	width: 445px;
+	
+	max-width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 25px;
+	letter-spacing: 0.07em;
+	color: #000000;
+}
+.text p:last-child:hover{
+ 	color:#E3B6AC;
+	cursor: pointer;
+	transition: .3s;
+}
+.third {
+	margin-top: 0;
+	margin-bottom: 0;
+	background-image: url("img/fon3.svg");
+	background-size: cover;
+	padding-bottom: 100px;
+}
+.news {
+
+	justify-content: space-between;
+	width: 980px;
+	
+	max-width: 100%;
+	display: flex;
+	margin-bottom: 70px;
+	margin-top: 100px;
+	flex-wrap: wrap;
+}
+
+.scroll{
+	
+	width: 172px;
+	
+	max-width: 100%;
+	height: 20px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	cursor: pointer;
+	margin: 0 auto;
+}
+.forth {
+	background-image: url("img/fon4.svg");
+	background-size: cover;
+	margin-bottom: 0;
+	height: 900px;
+}
+.forth .container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 900px;
+}
+.forth img {
+	width: 610px;
+	
+	max-width: 100%;
+	height: 610px;
+	z-index: 1;
+}
+.fifth {
+	margin-top: 0;
+	background: #4E4E54;
+	height: 960px;
+	margin-bottom: 0;
+}
+.help {
+	width: 1326px;
+	
+	max-width: 100%;
+	padding-top: 80px;
+	display: flex;
+	flex-direction: row;
+	height: 800px;
+	margin-left: 57px;
+}
+.form {
+	background-image:  url("img/poloskun.svg");
+	background-size: cover;
+	width: 825px;
+
+	
+	max-width: 100%;
+}
+.form h1 {
+	width: 586px;
+	
+	max-width: 100%;
+	margin-left: 33px;
+	font-size: 56px;
+	display: flex;
+	align-items: flex-end;
+	color: #FFFFFF;
+	margin-bottom: 39px;
+}
+.form p {
+	margin-top: 0;
+	font-size: 36px;
+	display: flex;
+	align-items: flex-end;
+	width: 664px;
+	
+	max-width: 100%;
+	color: #FFFFFF;
+	margin-left: 33px;
+	margin-bottom: 67px;
+}
+.formochka {
+	margin-top: 0;
+	margin-left: 33px;
+	width: 200px;
+}
+.formochka label{
+	font-size: 24px;
+	display: flex;
+ 	width: 500px;
+	max-width: 100%;
+	align-items: flex-end;
+	color: #FFFFFF;
+}
+.formochka input{
+	background: rgba(0,0,0,0.5);
+	width: 300px;
+	height: 30px;	border-style: none;
+	color: white;
+}
+.formochka text {
+	width: 100px;
+}
+.footer {
+	background-image: url("img/foot.svg");
+	background-size: cover;
+	margin-bottom: 0;
+	height: 214px;
+}
+.fff {
+	display: flex;
+	justify-content: space-between;
+	width: 500px;
+	
+	max-width: 100%;
+}
+.fff input{
+	width: 60px;
+}
+.fff label{
+	width: 700px;
+}
+
+@media screen and (max-width: 325px){
+
+		.about_project {
+		margin-top: 126px;
+		width: 980px;
+		margin-left: 170px;
+		display: flex;
+		height: 380px;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.head {
+		margin-top: 20px;
+		margin-bottom: 0;
+		margin-left: 170px;
+		width: 980px;
+		height: 20px;	
+	}
+
+}
+
+
+@media screen and (max-width: 970px) {
+	.about_project {
+		justify-content: center;
+	}
+
+	.news {
+		justify-content: center;
+	}
+	.info1 h1 {
+		margin-top: 0;
+		font-size: 85px;
+		line-height: 128px;
+		letter-spacing: 0.07em;
+		color: #FFFFFF;
+		margin-bottom: 15px;
+	}
+	.info1 p {
+		font-size: 25px;
+		line-height: 50px;
+		letter-spacing: 0.07em;
+		margin-top: 0;
+		color: #FFFFFF;
+		margin-bottom: 60px;
+	}
+	h2 {
+		padding-top: 10px;
+		font-size: 48px;
+		line-height: 60px;
+		letter-spacing: 0.23em;
+		color: #000000;
+		text-align: center;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.form p {
+		margin-top: 0;
+		font-size: 25px;
+		display: flex;
+		align-items: flex-end;
+		width: 230px;
+		max-width: 100%;
+		color: #FFFFFF;
+		margin-left: 33px;
+		margin-bottom: 67px;
+	}
+	.form h1 {
+		width: 586px;
+		max-width: 100%;
+		margin-left: 33px;
+		font-size: 40px;
+		display: flex;
+		align-items: flex-end;
+		color: #FFFFFF;
+		margin-bottom: 39px;
+	}
+	.formochka input {
+		background: rgba(0,0,0,0.5);
+		width: 200px;
+		height: 30px;
+		border-style: none;
+		color: white;
+	}
+	.formochka label {
+		font-size: 15px;
+		display: flex;
+		width: 200px;
+		max-width: 100%;
+		align-items: flex-end;
+		color: #FFFFFF;
+	}
+	
+	
+}
